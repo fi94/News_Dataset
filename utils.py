@@ -9,7 +9,6 @@ def read_json(data_root, json_file='image.json'):
     return data
 
 
-
 # project_1w
 def get_data_info(data):
     data_dict = {}
@@ -61,6 +60,7 @@ def get_data_info_2w(data):
     data_dict['sentence_annotation'] = sentence_list
     return data_dict
 
+
 # 旧的一万张图片
 def get_info_1w(data,annotation_name,image_ann_path):
     data_dict = {}
@@ -83,6 +83,7 @@ def get_info_1w(data,annotation_name,image_ann_path):
     data_dict['image_name'] = annotation_name.split('.')[0].split('_')[0]
     data_dict['annotation_path'] = image_ann_path
     return data_dict
+
 
 if __name__ == '__main__':
     args = parse_args()
