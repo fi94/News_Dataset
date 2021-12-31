@@ -19,4 +19,4 @@ Due to image copyright issues, CDNIC19k is for scientific research using only.
 [baiducloud](https://pan.baidu.com/s/1kLhOX-nQBZGKwBa43U87uQ) code:49gv
 
 ## Images of CDNIC19k
-![1](figures/1.png)
+![1](figures/Fig1.png)
